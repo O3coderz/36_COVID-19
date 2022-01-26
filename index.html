@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 BISD</title>
+    <script src="https://kit.fontawesome.com/b071e9ccf3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header container-fluid">
+        <div class="head-button">
+            <button type="button" class="button">Announcement</button>
+        </div>
+        <div class="heading">
+            <p>How to responsibily to COVID-19</p>
+        </div>
+    </header>
+    <nav class="navbar" id="bg-navbar">
+        <div class="logo">
+            <span><a href="index.html"><img src="https://i.ibb.co/L1CsrfG/logo.png" alt=""> <!--<strong style="color: rgb(210, 233, 7);">O<sub>3</sub></strong> coderz --></a></span>
+           
+        </div>
+        <div class="menu-list">
+            <ul class="">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Feed Back</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><span><i class="fas fa-cart-plus"></i></span></li>
+            </ul>
+            
+
+        </div>
+        <!-- <div class="price">
+            <span><i class="fas fa-cart-plus"></i></span>
+        </div> -->
+    </nav>
+    <div class="main-div">
+        <!-- <img class="hill-img" src="./img/hill_on_man.jpg" alt=""> -->
+        <div class="intro">
+            
+            <h2>Serving you <br>since 1989.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa officia praesentium, fugit ut velit magni perferendis at doloribus distinctio soluta incidunt</p>
+            <a class="learn-more" href="#">Learn More</a>
+        </div>
+
+    </div>
+    <div class="wrraper">
+        <div class="mini-wrrap container mt-5">
+            <div class="support ">
+                <p>way to support</p>
+                <h2>Support Acme Outdoors.</h2>
+            </div>
+            <div class="covid-19 ">
+                <p>COVID-19 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, repellendus! Doloribus illo ab unde maiores culpa aut est nisi itaque consequatur nostrum officiis, repellendus, ratione assumenda, numquam deserunt ipsam. Quidem.</p>
+            </div>
+        </div>
+        <div class="mini-wrrap container">
+            <div class="row single-display">
+                <div class="data-table">
+                    <h1 class="number">01</h1>
+                    <h1>SHOP <br> PRODUCTS</h1>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorem eveniet nostrum. Obcaecati iure atque libero, autem laborum, possimus accusamus sunt id cupiditate quidem qui voluptatibus, culpa reiciendis eius consequatur?</p>
+            </div>
+            <div class="row single-display">
+                <div class="data-table">
+                    <h1 class="number">02</h1>
+                    <h1 style="padding: 25px 10px;">DONATE</h1>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorem eveniet nostrum. Obcaecati iure atque libero, autem laborum, possimus accusamus sunt id cupiditate quidem qui voluptatibus, culpa reiciendis eius consequatur?</p>
+            </div>
+            <div class="row single-display">
+                <div class="data-table">
+                    <h1 class="number">03</h1>
+                    <h1>BUY <br> GIFT CARDS</h1>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorem eveniet nostrum. Obcaecati iure atque libero, autem laborum, possimus accusamus sunt id cupiditate quidem qui voluptatibus, culpa reiciendis eius consequatur?</p>
+            </div>
+        </div>
+    </div>
+    <div class="forest-div">
+        <!-- <img class="forest-img" src="./img/forest.jpg" alt=""> -->
+        <div class="footer-intro container">
+            
+            <h2>How we're keeping you <br> safe during COVID-19</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa officia praesentium, fugit ut velit magni perferendis at doloribus distinctio soluta incidunt</p>
+            <a class="learn-more" href="#">Learn More</a>
+        </div>
+    </div>
+    <footer class="footer container">
+        <p>Shop Products</p>
+        <h2>Open 24/7/365</h2>
+
+    </footer>
+
+    <!-- JavaScript  -->
+
+   <script>
+       var bg_navbar = document.getElementById("bg-navbar");
+       window.onscroll = function(){
+          var scroll_nav = window.scrollY;
+          if(scroll_nav >= 100){
+            bg_navbar.classList.add('after-scroll-nvbar'); 
+          }
+
+          else{
+              bg_navbar.classList.remove('after-scroll-nvbar');
+          }
+       }
+   </script> 
+</body>
+</html>
